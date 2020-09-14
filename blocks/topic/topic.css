@@ -1,0 +1,12 @@
+.topic {
+  max-width: 94%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+  padding: 9px 8px 12px 9px;
+  box-sizing: border-box;
+}
+
+.topic:not(:last-of-type) {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,8 @@
+.customer-data-form__error-container {
+  color: red;
+  display: block;
+  margin: 4px 0 4px 0;
+  font-size: 12px;
+  line-height: 1;
+  min-height: 25px;
+}

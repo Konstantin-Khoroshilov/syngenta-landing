@@ -1,0 +1,13 @@
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'DIN Pro Cond';
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 14.56px;
+}
+
+.menu__link:hover {
+  opacity: .7;
+}

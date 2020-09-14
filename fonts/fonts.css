@@ -1,0 +1,32 @@
+@font-face {
+  src: url('./HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff2') format("woff2"),
+       url('./HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format("woff");
+  font-family: 'HelveticaNeueCyr';
+  font-style:  normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('./HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff2') format("woff2"),
+       url('./HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff') format("woff");
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('./HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff2') format("woff2"),
+       url('./HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff') format("woff");
+  font-family: 'HelveticaNeueCyr';
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('./DINPro/DINPro-CondensedMedium.woff2') format("woff2"),
+       url('./DINPro/DINPro-CondensedMedium.woff') format("woff");
+  font-family: 'DIN Pro Cond';
+  font-style:  normal;
+  font-weight: 500;
+}
+

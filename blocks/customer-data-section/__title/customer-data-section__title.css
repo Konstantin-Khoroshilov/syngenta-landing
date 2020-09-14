@@ -1,0 +1,11 @@
+.customer-data-section__title {
+  font-weight: 500;
+  color: #287344;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18.04px;
+  padding-top: 76px;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-bottom: 42px;
+}

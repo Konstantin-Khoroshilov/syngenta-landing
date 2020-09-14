@@ -1,0 +1,8 @@
+.about-project-section {
+  background: url(../../images/about-project-section-background-left.svg) no-repeat top left,
+              url(../../images/about-project-section-background-right.svg) no-repeat bottom right;
+  background-size: 22%;
+  padding-top: 68px;
+  padding-bottom: 101px;
+  margin: 0 auto;
+}

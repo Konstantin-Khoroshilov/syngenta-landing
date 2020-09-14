@@ -1,0 +1,8 @@
+.project-program-section__event-date-container {
+  margin: 0 auto;
+  min-height: 55px;
+  max-width: 198px;
+  border-radius: 60px 0 60px 0;
+  background: rgba(0, 123, 61, .6);
+  position: relative;
+}

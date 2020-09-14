@@ -1,0 +1,13 @@
+.customer-data-form__label {
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.customer-data-form__label:not(:last-of-type){
+  margin-right: 35px;
+}
+
+.customer-data-form__label:last-of-type{
+  margin-bottom: 6px;
+}

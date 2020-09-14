@@ -1,0 +1,24 @@
+.customer-data-form__submit {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 128, 66);
+  border-radius: 60px 0 60px 0;
+  color: white;
+  border: none;
+  outline: none;
+  height: 42px;
+  width: 151px;
+  font-family: 'DIN Pro Cond';
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.customer-data-form__submit:hover {
+  opacity: .7;
+}
+
+.customer-data-form__submit:focus {
+  opacity: .7;
+}

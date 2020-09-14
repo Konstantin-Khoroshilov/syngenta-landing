@@ -1,0 +1,10 @@
+.menu__item {
+  display: inline-block;
+}
+
+.menu__item:not(:last-of-type) {
+  margin-right: 5%;
+}
+.menu__item:last-of-type {
+  margin-right: 14.7%;
+}

@@ -1,0 +1,7 @@
+.customer-data-form__input_type_checkbox {
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+}

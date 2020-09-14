@@ -1,0 +1,11 @@
+.about-project-section__subtitle {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  color: #007F48;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 17px;
+  max-width: 50.05%;
+}

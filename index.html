@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Сингента агрошоу</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+	    <ul class="menu">
+		    <li class="menu__item"><a href="#" class="menu__link">Расписание</a></li>
+		    <li class="menu__item"><a href="#" class="menu__link">Регистрация</a></li>
+	    </ul>
+    </header>
+    <main class="content">
+			<section class="lead">
+				<img src="./images/lead-main-img.png" alt="сингента агрошоу" class="lead__main-image">
+				<img src="./images/syngenta-logo.svg" alt="логотип Сингента" class="lead__logo">
+			</section>
+	    <section class="customer-data-section">
+		    <h2 class="customer-data-section__title">
+					Интерактивное событие в сельскохозяйственной отрасли
+					России - агрошоу-2020 по гибридам кукурузы и подсолнечника
+		    </h2>
+		    <form action="#" method="POST" name="customer-data-form" class="customer-data-form" novalidate>
+			    <fieldset class="customer-data-form__fieldset">
+						<legend class="customer-data-form__legend">Основные данные</legend>
+			      <label class="customer-data-form__label">
+				      <span class="customer-data-form__input-name">E-mail</span>
+				      <input type="email" name="email" class="customer-data-form__input" required>
+				      <span class="customer-data-form__error-container" id="email-error-container"></span>
+			      </label>
+			    </fieldset>
+			    <fieldset class="customer-data-form__fieldset">
+				    <legend class="customer-data-form__legend">Персональные данные</legend>
+			      <label class="customer-data-form__label">
+				      <span class="customer-data-form__input-name">Фамилия</span>
+				      <input type="text" name="surname" class="customer-data-form__input" required>
+				      <span class="customer-data-form__error-container" id="surname-error-container"></span>
+			      </label>
+			      <label class="customer-data-form__label customer-data-form__label_size_small">
+				      <span class="customer-data-form__input-name">Имя</span>
+				      <input type="text" name="name" class="customer-data-form__input customer-data-form__input_size_small" required>
+				      <span class="customer-data-form__error-container" id="name-error-container"></span>
+			      </label>
+			      <label class="customer-data-form__label customer-data-form__label_size_small">
+				      <span class="customer-data-form__input-name">Телефон</span>
+				      <input type="tel" name="phone" class="customer-data-form__input customer-data-form__input_size_small" required>
+				      <span class="customer-data-form__error-container" id="phone-error-container"></span>
+			      </label>
+			    </fieldset>
+			    <fieldset class="customer-data-form__fieldset">
+				    <legend class="customer-data-form__legend">Данные о компании</legend>
+			      <label class="customer-data-form__label">
+				      <span class="customer-data-form__input-name">Компания</span>
+				      <input type="text" name="company" class="customer-data-form__input" required>
+				      <span class="customer-data-form__error-container" id="company-error-container"></span>
+			      </label>
+			      <label class="customer-data-form__label customer-data-form__label_size_small">
+				      <span class="customer-data-form__input-name">Должность</span>
+				      <input type="text" name="position" class="customer-data-form__input customer-data-form__input_size_small" required>
+				      <span class="customer-data-form__error-container" id="position-error-container"></span>
+			      </label>
+			    </fieldset>
+			    <label class="customer-data-form__label customer-data-form__label_size_max">
+				    <input type="checkbox" name="agreement" class="customer-data-form__input customer-data-form__input_type_checkbox" required>
+				    <span class="customer-data-form__agreement">Согласие на обработку персональных данных</span>
+						<span class="customer-data-form__error-container" id="agreement-error-container"></span>
+			    </label>
+			    <button type="submit" class="customer-data-form__submit customer-data-form__submit_disabled" disabled>Зарегистрироваться</button>
+		    </form>
+	    </section>
+	    <section class="about-project-section">
+		    <h2 class="about-project-section__title">О проекте</h2>
+		    <h3 class="about-project-section__subtitle">
+			    Приглашаем вас принять участие в интерактивном событии в сельскохозяйственной отрасли России - Агрошоу-2020<br>
+			    по гибридам кукурузы и подсолнечника.
+		    </h3>
+		    <p class="about-project-section__text">
+			    Это эксклюзивный выпуск с акцентом на самую актуальную проблематику ближайших
+			    месяцев, а именно выбор гибридов на следующий сезон.<br>
+			    От этого выбора зависят технология, подбор препаратов для защиты растений,
+			    расчёт необходимого количества удобрений и многое другое. В ближайшее время
+			    по результатам полученного урожая все аграрии страны будут принимать это решение.
+		    </p>
+		    <p class="about-project-section__text">
+			    Во время Агрошоу вы сможете ознакомиться с предварительными результатами
+			    текущего сезона, виртуально посетить поля подсолнечника и кукурузы во всех
+			    регионах страны, узнать о приоритетных задачах селекционеров, создающих
+			    гибриды специально для российских условий. Вы не только получите
+			    рекомендации сотрудников компании «Сингента», но и услышите независимые
+			    мнения коллег и клиентов нашей компании, которых вы можете знать лично.
+		    </p>
+		    <p class="about-project-section__text about-project-section__text_important">
+			    Также во время Агрошоу будут представлены принципы новой
+			    коммерческой политики компании «Сингента», анонсированы преимущества
+			    новой структуры компании для сельхозпроизводителей и дистрибьютеров, новый прайс-лист и новые сервисы.
+		    </p>
+		    <p class="about-project-section__text">
+			    У вас будет возможность задать спикерам вопросы в режиме реального
+			    времени и получить на них развёрнутые и чёткие ответы.
+		    </p>
+		    <p class="about-project-section__text">
+			    Мы ждём вас <span class="about-project-section__event-date">10 сентября в 11:00</span> МСК.<br>
+			    (!) Необходима предварительная регистрация!
+		    </p>
+		    <p class="about-project-section__text">
+			    Продолжительность трансляции — полтора часа.
+		    </p>
+	    </section>
+	    <section class="project-program-section">
+		    <h2 class="project-program-section__title">Программа</h2>
+		    <p class="project-program-section__subtitle">агрошоу</p>
+		    <div class="project-program-section__event-date-container"><p class="project-program-section__event-date">10 сентября</p></div>
+		    <div class="topic-container">
+			    <div class="topic">
+				    <h3 class="topic__title uppercase">Бизнес. Вектор развития</h3>
+						<ul class="topic__subtopic-container">
+							<li class="topic__subtopic">
+								Две команды, одна компания, один клиент. В чём преимущества новой
+								структуры компании «Сингента» для сельхозпроизводителей и дистрибьютеров.
+							</li>
+							<li class="topic__subtopic">
+								Принципы новой коммерческой политики, новый прайс-лист.<br>
+								Чего ожидать сельхозпроизводителю?
+							</li>
+							<li class="topic__subtopic">
+								Будущее подразделения «Семена»:<br>
+								специализация, планы по расширению портфеля и сервисов.
+							</li>
+						</ul>
+			    </div>
+			    <div class="topic">
+				    <h3 class="topic__title">
+					    Новая эра гибридов кукурузы «Сингенты» и средств защиты растений
+				    </h3>
+				    <ul class="topic__subtopic-container">
+					    <li class="topic__subtopic">
+						    Гибриды для России — цель работы сети Исследования и Развития «Сингенты».
+					    </li>
+					    <li class="topic__subtopic">
+						    Большая премьера 2020 года: семь новых гибридов в арсенале<br>
+						    компании «Сингента Seeds».
+					    </li>
+					    <li class="topic__subtopic">
+						    Итоги года: как показали себя новые гибриды в производственных условиях.
+					    </li>
+					    <li class="topic__subtopic">
+						    Гиб+ СЗР = прибыль. Как правильно решить это уравнение.
+					    </li>
+				    </ul>
+			    </div>
+			    <div class="topic">
+				    <h3 class="topic__title">
+					    Защита семян. Значение обработки семян в современной технологии
+					    выращивания кукурузы и подсолнечника
+				    </h3>
+				    <ul class="topic__subtopic-container">
+					    <li class="topic__subtopic">
+						    Новинка для защиты семян кукурузы — Elevation.
+					    </li>
+					    <li class="topic__subtopic">
+						    <span class="uppercase">Круйзер<span class="topic__r-mark">&reg;</span> Форс</span>-технология для
+						    обработки семян подсолнечника.
+					    </li>
+				    </ul>
+			    </div>
+			    <div class="topic">
+				    <h3 class="topic__title uppercase">
+					    Подсолнечник: вызовы сезона-2020 - ответ современной
+					    адаптированной генетики и новинок СЗР
+				    </h3>
+				    <ul class="topic__subtopic-container">
+					    <li class="topic__subtopic">
+						    Каким был сезон для подсолнечника, чему он нас научил и чего ждать от 2021 года.
+					    </li>
+					    <li class="topic__subtopic">
+						    Современные производственные системы и технологии, новинки портфеля.
+					    </li>
+					    <li class="topic__subtopic">
+						    Как сохранить высокий потенциал современных гибридов.
+					    </li>
+				    </ul>
+			    </div>
+			    <div class="topic">
+				    <h3 class="topic__title">
+					    Обзор рынка: <span class="uppercase">тренды и прогнозы</span>
+				    </h3>
+				    <ul class="topic__subtopic-container">
+					    <li class="topic__subtopic">
+						    Обзор рынка и прогноз цен на урожай кукурузы и подсолнечника компании.
+					    </li>
+				    </ul>
+			    </div>
+			    <div class="topic">
+				    <h3 class="topic__title">
+					    Cropio и цифровые сервисы «Сингенты»
+				    </h3>
+				    <ul class="topic__subtopic-container">
+					    <li class="topic__subtopic">
+						    Цифровой агроскаутинг: итоги 2020 года и как цифра помогает
+						    в полевом сопровождении гибридов.
+					    </li>
+					    <li class="topic__subtopic">
+						    Обзор цифрового сервиса рекомендаций по уборке силосных гибридов кукурузы.
+					    </li>
+					    <li class="topic__subtopic">
+						    Планы на сезон-2021.
+					    </li>
+				    </ul>
+			    </div>
+		    </div>
+	    </section>
+    </main>
+    <footer class="footer">
+	    <img src="./images/syngenta-logo.svg" alt="логотип Сингента" class="footer__logo">
+    </footer>
+	</div>
+	<script type="module" src="./scripts/index.js"></script>
+</body>
+</html>

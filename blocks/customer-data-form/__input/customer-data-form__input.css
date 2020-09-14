@@ -1,0 +1,7 @@
+.customer-data-form__input {
+  width: 270px;
+  height: 39px;
+  box-sizing: border-box;
+  font-size: 18px;
+  display: block;
+}
